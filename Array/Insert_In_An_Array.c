@@ -27,7 +27,7 @@ int main()
         scanf("%d",&a[i]);
     }
     int val,pos;
-    scanf("%d %d",&val,&pos);
+    scanf("%d %d",&pos,&val);
 
     insert_array(a,n,pos,val);
     display_array(a,n+1);

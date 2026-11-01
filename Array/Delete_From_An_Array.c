@@ -26,7 +26,7 @@ int main()
         scanf("%d",&a[i]);
     }
     int pos;
-    scanf("%d ", &pos);
+    scanf("%d",&pos);
 
     delete_array(a, n, pos);
     print_array(a,n-1);
