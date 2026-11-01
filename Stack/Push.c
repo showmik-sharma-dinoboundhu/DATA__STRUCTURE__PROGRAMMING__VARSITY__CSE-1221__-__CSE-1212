@@ -44,5 +44,8 @@ int main()
     push(mystack, 61);
     display(mystack);
 
+    printf("Top = %d\n",top);
+    printf("Top Value = %d\n",mystack[3]);
+
     return 0;
 }
